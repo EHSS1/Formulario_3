@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	
+		<title>Cadastro</title>
+		<style>
+		body {
+				font-family: arial;
+				padding: 30px;
+				
+		}
+		     .asterisco {color: red; }
+			 .asterisco1 {color: blue; }
+			 .button:hover{
+			 background-color: deepskyblue; 
+			 cursor: pointer;
+		}
+			.button{
+				background-color: dodgerblue;
+				padding: 15px;
+				width: 130px;
+				height: 30px;
+				border-radius: 10px;
+				color: white;
+				font: center;
+				
+		}
+			.espaço{margin-left: 130px;}
+			.espaço2{margin-left: 30px;}
+			.espaço3{margin-left: 190px;}
+			.espaço4{margin-left: 120px;}
+			.espaço5{margin-left: 130px;}
+			.espaço6{margin-left: 130px;}
+			.espaço7{margin-left: 40px;}
+			
+		</style>
+	</head>
+	<body>
+	<form method="post"><br><br><br>
+			
+			<label>Nome Completo</label><label class="asterisco">*</label><br> 
+			<input type="text"
+			   maxlength="80" size="60"/><br><br>
+			
+			<label>E-mail</label><label class="asterisco">*</label><br> 
+			
+			<input type="text"
+			   maxlength="80" size="60"/><br><br>
+			   
+			<label>Data de Nascimento</label><label class="asterisco">*</label>
+			<label class="espaço">Celular Principal</label><label class="asterisco">*</label><br>
+			<input type="text"
+			   maxlength="80" size="25"/>
+			
+			 <input type="text"
+			   maxlength="80" size="25" class="espaço2"/><br><br>
+			 
+			
+			<label>Telefone Residencial</label>
+			<label class="espaço3">Gênero</label><label class="asterisco">*</label><br>
+			<input type="text"
+			   maxlength="80" size="25"/> 
+			<input class="espaço2" type="radio" name="Gênero" class="asterisco" value="Masculino"/>
+			<label>Masculino</label>
+
+			<input type="radio" name="Gênero" class="asterisco" value="Feminino"/>
+			<label>Feminino</label><br><br>	
+			 
+			<label>CPF</label><label class="asterisco1">*</label> 
+			<label class="espaço4">RG</label><label class="asterisco1">*</label>
+			<label class="espaço5">Nacionalidade</label><label class="asterisco1">*</label>
+			<br>
+			<input type="text"
+			   maxlength="80" size="13" /> 
+			 
+			<input class="espaço2" type="text"
+			   maxlength="80" size="13" />
+			 
+			<input class="espaço2" type="text"
+			   maxlength="80" size="13" /><br><br>   
+			   
+			<label>Cidade Natal</label><label class="asterisco1">*</label><br> 
+			<input type="text"
+			   maxlength="80" size="60" /><br><br>   
+
+			<label>CEP</label> 
+			<label class="espaço6">Endereço atual</label><label class="asterisco1">*</label>
+			<label class="espaço7">Cidade atual</label><label class="asterisco1">*</label>
+			<br>
+			<input type="text"
+			   maxlength="80" size="13" /> 
+			
+			<input class="espaço2" type="text"
+			   maxlength="80" size="13" />
+			 
+			<input class="espaço2" type="text"
+			   maxlength="80" size="13" /><br><br>
+			   
+			<label>Utilizar nome social?</label><br>
+			<input type="radio" name="Utilizar nome social?" value="Não"/>
+			<label>Não</label>
+
+			<input type="radio" name="Utilizar nome social?" value="Sim"/>
+			<label>Sim</label><br><br>
+
+			<label>Necessidades especiais?</label><br>
+			<input type="radio" name="Utilizar nome social?" value="Não"/>
+			<label>Não</label>
+
+			<input type="radio" name="Necessidades especiais?" value="Sim"/>
+			<label>Sim</label><br><br>
+			
+			<input class="button" type = "submit" Value="Próximo" />
+		</form>	 
+			   
+	</body>
+</html>
+	
